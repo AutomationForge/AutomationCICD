@@ -1,7 +1,7 @@
 # Ecommerce App Automation Framework
 
 ## Overview
-Ecommerce App Automation is a test automation framework developed using Java, Selenium, Maven, and Jenkins (CI/CD). This framework is designed to automate various test cases for the Ecomm app (SauceDemo) application, ensuring the reliability and efficiency of the application through continuous integration and continuous delivery (CI/CD). The test results are generated using Extent Reports, providing comprehensive insights into the test execution.
+Ecommerce App Automation is a test automation framework developed using Java, Selenium, Maven, and Jenkins (CI/CD). This framework is designed to automate various test cases for the Ecomm app application, ensuring the reliability and efficiency of the application through continuous integration and continuous delivery (CI/CD). The test results are generated using Extent Reports, providing comprehensive insights into the test execution.
 
 ![Ecomm_App_Automation_TestRun](./Assets/Jenkins_Execution.gif)
 ![image](./Assets/Jenkins_Console.png)
