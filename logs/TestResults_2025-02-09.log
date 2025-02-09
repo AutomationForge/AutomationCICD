@@ -1,0 +1,13 @@
+[INFO] 2025-02-09 13:23:50.762 [TestNG-tests-1] ErrorValidationTest.initializeDriver() - Browser started successfully
+[INFO] 2025-02-09 13:23:58.544 [TestNG-tests-1] ErrorValidationTest.ProductErrorValidation() - ** User Entered correct Username and Pass**
+[INFO] 2025-02-09 13:24:10.398 [TestNG-tests-1] ErrorValidationTest.ProductErrorValidation() - ** Product is added to cart**
+[INFO] 2025-02-09 13:24:10.765 [TestNG-tests-1] ErrorValidationTest.ProductErrorValidation() - ** User Verify Product is Displayed on cart**
+[INFO] 2025-02-09 13:24:10.860 [TestNG-tests-1] ErrorValidationTest.ProductErrorValidation() - ** Validating expected product **
+[INFO] 2025-02-09 13:24:10.864 [TestNG-tests-1] ErrorValidationTest.ProductErrorValidation() - ** Product is Displayed on cart page**
+[INFO] 2025-02-09 13:24:12.447 [TestNG-tests-1] ErrorValidationTest.initializeDriver() - Browser started successfully
+[INFO] 2025-02-09 13:24:18.889 [TestNG-tests-1] ErrorValidationTest.incorrectCreds() - ** Start incorrectCreds Test case **
+[INFO] 2025-02-09 13:24:18.890 [TestNG-tests-1] ErrorValidationTest.incorrectCreds() - ** User opened App and starts entering User and pass **
+[INFO] 2025-02-09 13:24:19.273 [TestNG-tests-1] ErrorValidationTest.incorrectCreds() - ** User Entered Incorrect Username and Pass**
+[INFO] 2025-02-09 13:24:19.274 [TestNG-tests-1] ErrorValidationTest.incorrectCreds() - ** Validating expected results **
+[INFO] 2025-02-09 13:24:19.323 [TestNG-tests-1] ErrorValidationTest.incorrectCreds() - ** User and pass validation message is shown **
+[INFO] 2025-02-09 13:24:19.323 [TestNG-tests-1] ErrorValidationTest.incorrectCreds() - ** Finished incorrectCreds Test case **

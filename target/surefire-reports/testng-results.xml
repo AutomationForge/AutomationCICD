@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-09T14:15:23 IST" name="Suite" finished-at="2025-02-09T14:15:49 IST" duration-ms="26545">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.incorrectCreds()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@44e3760b]" name="incorrectCreds" class="AutomationFramework.tests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2025-02-09T14:15:23 IST" name="ErrorValidation Test" finished-at="2025-02-09T14:15:49 IST" duration-ms="26545">
+      <class name="AutomationFramework.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@44e3760b]" started-at="2025-02-09T14:15:23 IST" name="launchapp" finished-at="2025-02-09T14:15:30 IST" duration-ms="7186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@44e3760b]" started-at="2025-02-09T14:15:30 IST" name="ProductErrorValidation" finished-at="2025-02-09T14:15:43 IST" duration-ms="13079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@44e3760b]" started-at="2025-02-09T14:15:43 IST" name="teardown" finished-at="2025-02-09T14:15:43 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@44e3760b]" started-at="2025-02-09T14:15:43 IST" name="launchapp" finished-at="2025-02-09T14:15:48 IST" duration-ms="4889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="incorrectCreds()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@44e3760b]" started-at="2025-02-09T14:15:48 IST" name="incorrectCreds" finished-at="2025-02-09T14:15:49 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectCreds -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@44e3760b]" started-at="2025-02-09T14:15:49 IST" name="teardown" finished-at="2025-02-09T14:15:49 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutomationFramework.tests.ErrorValidationTest -->
+    </test> <!-- ErrorValidation Test -->
+  </suite> <!-- Suite -->
+</testng-results>

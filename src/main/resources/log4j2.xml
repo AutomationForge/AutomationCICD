@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="logPath">./logs</Property>
+        <Property name="rollingFileName">TestResults</Property>
+    </Properties>
+    
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%highlight{%-5level}] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1}.%M() - %msg%n%throwable{full}" />
+        </Console>
+        
+        <!-- Rolling File Appender -->
+        <RollingFile name="rollingFile"
+            fileName="${logPath}/${rollingFileName}.log"
+            filePattern="${logPath}/${rollingFileName}_%d{yyyy-MM-dd}.log"
+            immediateFlush="true">
+            <PatternLayout pattern="[%level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1}.%M() - %msg%n%throwable{full}" />
+            <Policies>
+                <OnStartupTriggeringPolicy />
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="console" />
+            <AppenderRef ref="rollingFile" />
+        </Root>
+    </Loggers>
+</Configuration>
