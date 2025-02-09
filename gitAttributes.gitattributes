@@ -1,0 +1,7 @@
+# Ignore auto-generated HTML reports from language stats
+*.html linguist-documentation
+*.css linguist-documentation
+*.xml linguist-documentation
+
+# Ensure Java files are counted properly
+*.java linguist-detectable
