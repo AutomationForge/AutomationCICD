@@ -82,6 +82,8 @@ public class ErrorValidationTest extends BaseTest {
 		logger.info("** Product is added to cart**");
 
 		MyCartPage myCartPage = productCatalogue.goToCart();
+		
+		logger.info("** User is moved to cart page Successfully**");
 
 		myCartPage.returnaddedProducttocart();
 
