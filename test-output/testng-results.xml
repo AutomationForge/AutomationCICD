@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -31,10 +32,130 @@
           </reporter-output>
         </test-method> <!-- incorrectCreds -->
         <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@1b39fd82]" started-at="2025-02-09T16:52:46 IST" name="teardown" finished-at="2025-02-09T16:52:46 IST" duration-ms="244" status="PASS">
+=======
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-09T21:19:00 IST" name="Suite" finished-at="2025-02-09T21:19:37 IST" duration-ms="36758">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.incorrectCreds()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@593e824f]" name="incorrectCreds" class="AutomationFramework.tests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitorderTest.submitorder(java.util.HashMap)[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" name="submitorder" class="AutomationFramework.tests.SubmitorderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-02-09T21:19:00 IST" name="ErrorValidation Test" finished-at="2025-02-09T21:19:20 IST" duration-ms="19790">
+      <class name="AutomationFramework.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@593e824f]" started-at="2025-02-09T21:19:00 IST" name="launchapp" finished-at="2025-02-09T21:19:05 IST" duration-ms="4220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@593e824f]" started-at="2025-02-09T21:19:05 IST" name="ProductErrorValidation" finished-at="2025-02-09T21:19:17 IST" duration-ms="12704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@593e824f]" started-at="2025-02-09T21:19:17 IST" name="teardown" finished-at="2025-02-09T21:19:18 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@593e824f]" started-at="2025-02-09T21:19:18 IST" name="launchapp" finished-at="2025-02-09T21:19:19 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="incorrectCreds()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@593e824f]" started-at="2025-02-09T21:19:19 IST" name="incorrectCreds" finished-at="2025-02-09T21:19:20 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectCreds -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFramework.tests.ErrorValidationTest@593e824f]" started-at="2025-02-09T21:19:20 IST" name="teardown" finished-at="2025-02-09T21:19:20 IST" duration-ms="183" status="PASS">
+>>>>>>> 2760f21 (Handled Exception code)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- AutomationFramework.tests.ErrorValidationTest -->
     </test> <!-- ErrorValidation Test -->
+<<<<<<< HEAD
+=======
+    <test started-at="2025-02-09T21:19:00 IST" name="Submit order Test" finished-at="2025-02-09T21:19:37 IST" duration-ms="36758">
+      <class name="AutomationFramework.tests.SubmitorderTest">
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:01 IST" name="launchapp" finished-at="2025-02-09T21:19:03 IST" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:03 IST" name="submitorder" data-provider="getData" finished-at="2025-02-09T21:19:16 IST" duration-ms="13512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input=LG Refrigerator, password=Test1234, email=Skip123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:16 IST" name="teardown" finished-at="2025-02-09T21:19:17 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:17 IST" name="launchapp" finished-at="2025-02-09T21:19:19 IST" duration-ms="1789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:19 IST" name="submitorder" data-provider="getData" finished-at="2025-02-09T21:19:32 IST" duration-ms="13419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input=Banarsi Saree, password=Test1234, email=Skip1234@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:32 IST" name="teardown" finished-at="2025-02-09T21:19:32 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:32 IST" name="launchapp" finished-at="2025-02-09T21:19:34 IST" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="Verifyorder(java.util.HashMap)[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:34 IST" name="Verifyorder" data-provider="getData" finished-at="2025-02-09T21:19:34 IST" depends-on-methods="AutomationFramework.tests.SubmitorderTest.submitorder" duration-ms="712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input=LG Refrigerator, password=Test1234, email=Skip123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:34 IST" name="teardown" finished-at="2025-02-09T21:19:35 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapp()[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:35 IST" name="launchapp" finished-at="2025-02-09T21:19:36 IST" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="Verifyorder(java.util.HashMap)[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:36 IST" name="Verifyorder" data-provider="getData" finished-at="2025-02-09T21:19:37 IST" depends-on-methods="AutomationFramework.tests.SubmitorderTest.submitorder" duration-ms="675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input=Banarsi Saree, password=Test1234, email=Skip1234@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFramework.tests.SubmitorderTest@461ad730]" started-at="2025-02-09T21:19:37 IST" name="teardown" finished-at="2025-02-09T21:19:37 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutomationFramework.tests.SubmitorderTest -->
+    </test> <!-- Submit order Test -->
+>>>>>>> 2760f21 (Handled Exception code)
   </suite> <!-- Suite -->
 </testng-results>

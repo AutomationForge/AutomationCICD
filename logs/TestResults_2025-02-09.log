@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 [INFO] 2025-02-09 17:38:29.911 [TestNG-tests-1] ErrorValidationTest.initializeDriver() - Browser started successfully
+=======
+[INFO] 2025-02-09 21:18:03.616 [main] SubmitorderTest.initializeDriver() - Browser started successfully
+[INFO] 2025-02-09 21:18:21.290 [main] SubmitorderTest.initializeDriver() - Browser started successfully
+[INFO] 2025-02-09 21:18:36.463 [main] SubmitorderTest.initializeDriver() - Browser started successfully
+[INFO] 2025-02-09 21:18:38.916 [main] SubmitorderTest.initializeDriver() - Browser started successfully
+>>>>>>> 2760f21 (Handled Exception code)

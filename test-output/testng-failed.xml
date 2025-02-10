@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="AutomationFramework.TestComponents.Listeners"/>
@@ -16,3 +17,19 @@
     </classes>
   </test> <!-- ErrorValidation Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
+=======
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="AutomationFramework.tests.SubmitorderTest">
+        <methods>
+          <include name="Verifyorder"/>
+          <include name="teardown"/>
+          <include name="submitorder" invocation-numbers="1"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- AutomationFramework.tests.SubmitorderTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
+>>>>>>> 2760f21 (Handled Exception code)

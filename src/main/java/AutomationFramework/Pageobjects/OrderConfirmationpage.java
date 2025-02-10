@@ -1,15 +1,21 @@
 package AutomationFramework.Pageobjects;
 
+<<<<<<< HEAD
 import java.util.List;
 
+=======
+>>>>>>> 2760f21 (Handled Exception code)
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+<<<<<<< HEAD
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
+=======
+>>>>>>> 2760f21 (Handled Exception code)
 import AutomationFramework.AbstractComponents.AbstractComponent;
 
 public class OrderConfirmationpage extends AbstractComponent {

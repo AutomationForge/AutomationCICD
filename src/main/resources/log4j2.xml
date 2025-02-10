@@ -25,7 +25,11 @@
     </Appenders>
 
     <Loggers>
+<<<<<<< HEAD
         <Root level="INFO">
+=======
+        <Root level="Info">
+>>>>>>> 2760f21 (Handled Exception code)
             <AppenderRef ref="console" />
             <AppenderRef ref="rollingFile" />
         </Root>

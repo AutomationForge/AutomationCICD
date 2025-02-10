@@ -11,7 +11,11 @@
       <class name="AutomationFramework.tests.SubmitorderTest">
         <methods>
           <include name="teardown"/>
+<<<<<<< HEAD
           <include name="submitorder" invocation-numbers="0"/>
+=======
+          <include name="submitorder" invocation-numbers="1"/>
+>>>>>>> 2760f21 (Handled Exception code)
           <include name="launchapp"/>
         </methods>
       </class> <!-- AutomationFramework.tests.SubmitorderTest -->

@@ -7,9 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+<<<<<<< HEAD
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
+=======
+>>>>>>> 2760f21 (Handled Exception code)
 import AutomationFramework.AbstractComponents.AbstractComponent;
 
 
@@ -49,8 +52,10 @@ public class MyCartPage extends AbstractComponent {
 	}
 
 	public Paymentpage goToPaymentPage() {
-		
-		Checkoutbtnclk.click();
+
+		javascriptexecutortoPerform(Checkoutbtnclk);
+		//Checkoutbtnclk.click();
+
 		Paymentpage paymentpage = new Paymentpage(driver);
 		return paymentpage;
 

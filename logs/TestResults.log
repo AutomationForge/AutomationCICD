@@ -1,2 +1,23 @@
+<<<<<<< HEAD
 [INFO] 2025-02-09 17:39:38.595 [TestNG-tests-1] ErrorValidationTest.initializeDriver() - Browser started successfully
 [INFO] 2025-02-09 17:39:44.741 [TestNG-tests-1] ErrorValidationTest.ProductErrorValidation() - ** User Entered correct Username and Pass**
+=======
+[INFO] 2025-02-09 21:19:00.856 [TestNG-tests-2] ErrorValidationTest.initializeDriver() - Browser started successfully
+[INFO] 2025-02-09 21:19:01.043 [TestNG-tests-1] SubmitorderTest.initializeDriver() - Browser started successfully
+[INFO] 2025-02-09 21:19:05.346 [TestNG-tests-2] ErrorValidationTest.ProductErrorValidation() - ** User Entered correct Username and Pass**
+[INFO] 2025-02-09 21:19:17.219 [TestNG-tests-1] SubmitorderTest.initializeDriver() - Browser started successfully
+[INFO] 2025-02-09 21:19:17.474 [TestNG-tests-2] ErrorValidationTest.ProductErrorValidation() - ** Product is added to cart**
+[INFO] 2025-02-09 21:19:17.586 [TestNG-tests-2] ErrorValidationTest.ProductErrorValidation() - ** User is moved to cart page Successfully**
+[INFO] 2025-02-09 21:19:17.711 [TestNG-tests-2] ErrorValidationTest.ProductErrorValidation() - ** User Verify Product is Displayed on cart**
+[INFO] 2025-02-09 21:19:17.767 [TestNG-tests-2] ErrorValidationTest.ProductErrorValidation() - ** Validating expected product **
+[INFO] 2025-02-09 21:19:17.768 [TestNG-tests-2] ErrorValidationTest.ProductErrorValidation() - ** Product is Displayed on cart page**
+[INFO] 2025-02-09 21:19:18.121 [TestNG-tests-2] ErrorValidationTest.initializeDriver() - Browser started successfully
+[INFO] 2025-02-09 21:19:19.628 [TestNG-tests-2] ErrorValidationTest.incorrectCreds() - ** Start incorrectCreds Test case **
+[INFO] 2025-02-09 21:19:19.630 [TestNG-tests-2] ErrorValidationTest.incorrectCreds() - ** User opened App and starts entering User and pass **
+[INFO] 2025-02-09 21:19:20.317 [TestNG-tests-2] ErrorValidationTest.incorrectCreds() - ** User Entered Incorrect Username and Pass**
+[INFO] 2025-02-09 21:19:20.317 [TestNG-tests-2] ErrorValidationTest.incorrectCreds() - ** Validating expected results **
+[INFO] 2025-02-09 21:19:20.417 [TestNG-tests-2] ErrorValidationTest.incorrectCreds() - ** User and pass validation message is shown **
+[INFO] 2025-02-09 21:19:20.417 [TestNG-tests-2] ErrorValidationTest.incorrectCreds() - ** Finished incorrectCreds Test case **
+[INFO] 2025-02-09 21:19:32.665 [TestNG-tests-1] SubmitorderTest.initializeDriver() - Browser started successfully
+[INFO] 2025-02-09 21:19:35.180 [TestNG-tests-1] SubmitorderTest.initializeDriver() - Browser started successfully
+>>>>>>> 2760f21 (Handled Exception code)

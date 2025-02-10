@@ -2,11 +2,19 @@
 	{
 		"email" : "Skip123@gmail.com",
 		"password": "Test1234",
+<<<<<<< HEAD
 		"input" : "QWERTY"
+=======
+		"input" : "LG Refrigerator"
+>>>>>>> 2760f21 (Handled Exception code)
 	},
 	{
 			"email" : "Skip1234@gmail.com",
 			"password": "Test1234",
+<<<<<<< HEAD
 			"input" : "BANARSI SAREE"
+=======
+			"input" : "Banarsi Saree"
+>>>>>>> 2760f21 (Handled Exception code)
 		}
 ]

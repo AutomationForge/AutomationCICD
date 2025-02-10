@@ -69,7 +69,11 @@ public class ErrorValidationTest extends BaseTest {
 	@Test
 	public void ProductErrorValidation() throws IOException {
 
+<<<<<<< HEAD
 		String prdname = "qwerty";
+=======
+		String prdname = "LG Refrigerator";
+>>>>>>> 2760f21 (Handled Exception code)
 
 		ProductCatalogue productCatalogue = landingpage.loginapplication("Skip1234@gmail.com", "Test1234");
 
@@ -89,7 +93,11 @@ public class ErrorValidationTest extends BaseTest {
 
 		logger.info("** User Verify Product is Displayed on cart**");
 
+<<<<<<< HEAD
 		Boolean match = myCartPage.VerifyProductDisplay("qwerty33");
+=======
+		Boolean match = myCartPage.VerifyProductDisplay("LG Refrigerator33");
+>>>>>>> 2760f21 (Handled Exception code)
 
 		logger.info("** Validating expected product **");
 

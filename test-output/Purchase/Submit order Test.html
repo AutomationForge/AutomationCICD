@@ -55,11 +55,19 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Submit order Test</h2><table border='1' align="center">
 <tr>
+<<<<<<< HEAD
 <td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
 </tr><tr>
 <td>Started on:</td><td>Sat Feb 08 19:17:16 IST 2025</td>
 </tr>
 <tr><td>Total time:</td><td>5 seconds (5272 ms)</td>
+=======
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Feb 09 20:46:02 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22937 ms)</td>
+>>>>>>> 2760f21 (Handled Exception code)
 </tr><tr>
 <td>Included groups:</td><td>Purchase </td>
 </tr><tr>
@@ -68,6 +76,7 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
+<<<<<<< HEAD
 <tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -189,6 +198,8 @@ Caused by: java.io.IOException: Output closed
 <td>AutomationFramework.tests.SubmitorderTest@55634720</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
+=======
+>>>>>>> 2760f21 (Handled Exception code)
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -196,6 +207,7 @@ Caused by: java.io.IOException: Output closed
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< HEAD
 <td title='AutomationFramework.tests.SubmitorderTest.submitorder()'><b>submitorder</b><br>Test class: AutomationFramework.tests.SubmitorderTest<br>Parameters: {input=QWERTY, password=Test1234, email=Skip123@gmail.com}</td>
 <td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
@@ -206,6 +218,18 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [204bded493017a941bb097e6582828df, findElement {using=id, value=userPassword}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58619}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58619/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 204bded493017a941bb097e6582828df
+=======
+<td title='AutomationFramework.tests.SubmitorderTest.submitorder()'><b>submitorder</b><br>Test class: AutomationFramework.tests.SubmitorderTest<br>Parameters: {input=qwerty, password=Test1234, email=Skip1234@gmail.com}</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (542, 789)
+  (Session info: chrome=132.0.6834.160)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12a865ba02f311bd53269e6072d811f8, clickElement {id=f.1BCBB5C7AF4150757A1911A590D8B0D9.d.04A494B8613049F84CCA519889DA4347.e.97}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\sata0222\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51027}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51027/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (12a865ba02f311bd53269e6072d811f8)] -&gt; css selector: .mb-3]] -&gt; css selector: .mb-3 button:nth-child(4)]
+Session ID: 12a865ba02f311bd53269e6072d811f8
+>>>>>>> 2760f21 (Handled Exception code)
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -213,6 +237,7 @@ Session ID: 204bded493017a941bb097e6582828df
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+<<<<<<< HEAD
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
@@ -242,6 +267,30 @@ Session ID: 204bded493017a941bb097e6582828df
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+=======
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at AutomationFramework.Pageobjects.ProductCatalogue.addPrdtocart(ProductCatalogue.java:57)
+	at AutomationFramework.tests.SubmitorderTest.submitorder(SubmitorderTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1667526179", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1667526179'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (542, 789)
+  (Session info: chrome=132.0.6834.160)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12a865ba02f311bd53269e6072d811f8, clickElement {id=f.1BCBB5C7AF4150757A1911A590D8B0D9.d.04A494B8613049F84CCA519889DA4347.e.97}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\sata0222\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51027}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51027/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (12a865ba02f311bd53269e6072d811f8)] -&gt; css selector: .mb-3]] -&gt; css selector: .mb-3 button:nth-child(4)]
+Session ID: 12a865ba02f311bd53269e6072d811f8
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+>>>>>>> 2760f21 (Handled Exception code)
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -249,6 +298,7 @@ Session ID: 204bded493017a941bb097e6582828df
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+<<<<<<< HEAD
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
@@ -262,6 +312,14 @@ Session ID: 204bded493017a941bb097e6582828df
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+=======
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at AutomationFramework.Pageobjects.ProductCatalogue.addPrdtocart(ProductCatalogue.java:57)
+	at AutomationFramework.tests.SubmitorderTest.submitorder(SubmitorderTest.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+>>>>>>> 2760f21 (Handled Exception code)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -270,13 +328,18 @@ Session ID: 204bded493017a941bb097e6582828df
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+<<<<<<< HEAD
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+=======
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+>>>>>>> 2760f21 (Handled Exception code)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
 	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+<<<<<<< HEAD
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
@@ -287,12 +350,25 @@ Session ID: 204bded493017a941bb097e6582828df
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+=======
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>1</td>
+<td>AutomationFramework.tests.SubmitorderTest@206a70ef</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+>>>>>>> 2760f21 (Handled Exception code)
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< HEAD
 <td title='AutomationFramework.tests.SubmitorderTest.submitorder()'><b>submitorder</b><br>Test class: AutomationFramework.tests.SubmitorderTest<br>Parameters: {input=BANARSI SAREE, password=Test1234, email=Skip1234@gmail.com}</td>
 <td><div><pre>org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
@@ -405,6 +481,12 @@ Caused by: java.io.IOException: Output closed
 </pre></div></td>
 <td>0</td>
 <td>AutomationFramework.tests.SubmitorderTest@55634720</td></tr>
+=======
+<td title='AutomationFramework.tests.SubmitorderTest.submitorder()'><b>submitorder</b><br>Test class: AutomationFramework.tests.SubmitorderTest<br>Parameters: {input=LG Refrigerator, password=Test1234, email=Skip123@gmail.com}</td>
+<td></td>
+<td>13</td>
+<td>AutomationFramework.tests.SubmitorderTest@206a70ef</td></tr>
+>>>>>>> 2760f21 (Handled Exception code)
 </table><p>
 </body>
 </html>
