@@ -146,7 +146,7 @@ The framework is integrated with Jenkins to enable CI/CD. A Jenkins job is confi
 
 
 ## Conclusion
-The Ecommerce App Automation framework is a comprehensive solution for automating the testing of the SauceDemo application. With its robust structure, detailed reporting, and CI/CD integration, it ensures that the application remains reliable and efficient. Future enhancements will expand its capabilities, providing even more coverage and reliability for the application.
+The Ecommerce App Automation framework is a comprehensive solution for automating the testing of the Ecomm application. With its robust structure, detailed reporting, and CI/CD integration, it ensures that the application remains reliable and efficient. Future enhancements will expand its capabilities, providing even more coverage and reliability for the application.
 
 For any issues or contributions, please refer to the project's GitHub repository. Happy testing!
 
